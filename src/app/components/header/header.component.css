@@ -1,9 +1,33 @@
-.header {
+.header__wrapper {
     margin: 0 auto;
     width: 100%;
     display: flex;
+    border: 1px solid white;
+    flex-wrap: wrap;
 }
 
-.header-wrapper {
+.header__title {    
+    width: 100%;
+    display: flex;
+    color: orange;
+    font-weight: bold;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    margin: 0.5%;
+    margin-left: 12%;
+    margin-right: 10%;
+    font-size: 2vh;
+    /* border: 1px solid white; */
+}
 
+.header__values {
+    width: 100%;
+    display: flex;
+    color: yellow;
+    font-weight: bold;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    font-size: 5vh;    
+    margin-left: 10%;
+    margin-right: 10%;
 }

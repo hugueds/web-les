@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { VariantsComponent } from './components/variants/variants.component';
 import { ChassisComponent } from './components/chassis/chassis.component';
+import { WorkStationComponent } from './components/work-station/work-station.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ChassisComponent } from './components/chassis/chassis.component';
     HeaderComponent,
     FooterComponent,
     VariantsComponent,
-    ChassisComponent
+    ChassisComponent,
+    WorkStationComponent
   ],
   imports: [
     BrowserModule,

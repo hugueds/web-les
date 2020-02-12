@@ -1,0 +1,18 @@
+.work-station__wrapper {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 60vh;
+    border: 1px solid white;
+    display: flex;
+}
+
+app-chassis {
+    display: flex;    
+    width: 50%;
+}
+
+.stations--L, .stations--R {
+    display: flex;
+    width: 100%;
+    border: 1px solid yellow;
+}
