@@ -1,42 +1,81 @@
 .footer__wrapper {
-    margin: 0 auto;
-    margin-top: 2%;
-    width: 100%;
-    border: 1px solid #FFF;
-    min-height: 5vh;
-    font-weight: bold;
-    color: white;
-    display: flex;    
+  margin: 0 auto;
+  margin-top: 2%;
+  width: 100%;
+  border: 1px solid #FFF;
+  min-height: 3vh;
+  font-weight: bold;
+  color: white;
+  display: flex;
 }
 
-.footer__message {    
-    display: flex;
-    flex: 1 0 50%;
-    font-size: 5vh;    
-    justify-content: center;
+.footer__message {
+  display: flex;
+  flex: 1 0 50%;
+  font-size: 9.5em;
+  justify-content: center;
+  align-items: center;
+  top:0;
+  bottom: 0;
 }
 
-.footer__timer {        
-    display: flex;
-    flex: 1 0 50%;
-    font-size: 5vh;
-    justify-content: center;
+.footer__timer {
+  display: flex;
+  flex: 1 0 50%;
+  font-size: 5vh;
+  justify-content: center;
+}
+
+.footer__timer--progress {
+  margin: 1% 0 1% 0;
+  border: 0.25vw solid #000;
+  width: 80%;
+  background: #FFF;
 }
 
 .footer__timer--bar {
-    margin: 1% 0 1% 0;
-    border: 0.25vw solid #000;
-    width: 80%;
-    text-align: center;
-    background: #FFF;
+  display: flex;
+  width: 80%;
+  background: limegreen;
+  font-size: 1px;
 }
 
+
 .footer--danger {
-    color: white;
-    background-color: red;    
+  color: white;
+  background-color: red;
 }
 
 .footer--warning {
-    color: black;
-    background: yellow;
+  color: black;
+  background: yellow;
+}
+
+progress {
+  width: 100%;
+}
+
+.progress {
+  height: 1.2em;
+  width: 100%;
+  background-color: #c9c9c9;
+  position: relative;
+}
+
+.progress:before {
+  content: attr(data-label);
+  font-size: 1em;
+  position: absolute;
+  text-align: center;
+  /* top: 7.5%; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.progress .value {
+  background-color: limegreen;
+  display: inline-block;
+  height: 100%;
 }

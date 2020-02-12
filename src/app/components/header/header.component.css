@@ -16,7 +16,7 @@
     margin: 0.5%;
     margin-left: 12%;
     margin-right: 10%;
-    font-size: 2vh;
+    font-size: 5rem;
     /* border: 1px solid white; */
 }
 
@@ -27,7 +27,7 @@
     font-weight: bold;
     flex: 1 1 auto;
     justify-content: space-between;
-    font-size: 5vh;    
+    font-size: 10rem;    
     margin-left: 10%;
     margin-right: 10%;
 }
