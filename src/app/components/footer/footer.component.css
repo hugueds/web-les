@@ -3,7 +3,7 @@
   margin-top: 2%;
   width: 100%;
   border: 1px solid #FFF;
-  min-height: 3vh;
+  min-height: 3vw;
   font-weight: bold;
   color: white;
   display: flex;
@@ -12,7 +12,7 @@
 .footer__message {
   display: flex;
   flex: 1 0 50%;
-  font-size: 9.5em;
+  font-size: 3vw;
   justify-content: center;
   align-items: center;
   top:0;
@@ -21,13 +21,13 @@
 
 .footer__timer {
   display: flex;
-  flex: 1 0 50%;
-  font-size: 5vh;
+  flex: 1 0 50%;  
   justify-content: center;
 }
 
 .footer__timer--progress {
-  margin: 1% 0 1% 0;
+  /* margin: 1% 0 1% 0; */
+  height: 3.6vw;
   border: 0.25vw solid #000;
   width: 80%;
   background: #FFF;
@@ -37,7 +37,6 @@
   display: flex;
   width: 80%;
   background: limegreen;
-  font-size: 1px;
 }
 
 
@@ -56,7 +55,7 @@ progress {
 }
 
 .progress {
-  height: 1.2em;
+  height: 3.6vw;
   width: 100%;
   background-color: #c9c9c9;
   position: relative;
@@ -64,7 +63,7 @@ progress {
 
 .progress:before {
   content: attr(data-label);
-  font-size: 1em;
+  font-size: 3.6vw;
   position: absolute;
   text-align: center;
   /* top: 7.5%; */
