@@ -1,14 +1,14 @@
-<div class="footer footer__wrapper footer--warning">
+<div class="footer footer__wrapper" [className]="getAndon()">
 
   <div class="footer footer__message">
-    FA 1.1 AP10 MAQ 10
+    {{ footer.andonMessage }}
   </div>
 
   <div class="footer__timer">
 
     <div class="footer__timer--progress">
-      <div class="progress" data-label="00:00">
-        <span class="value" style="width:50%;"></span>
+      <div class="progress"  [attr.data-label]="footer.taktString" >
+        <span class="value" [style.width]="getBarPercentage()" ></span>
       </div>
     </div>
 

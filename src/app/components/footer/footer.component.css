@@ -15,13 +15,13 @@
   font-size: 3vw;
   justify-content: center;
   align-items: center;
-  top:0;
+  top: 0;
   bottom: 0;
 }
 
 .footer__timer {
   display: flex;
-  flex: 1 0 50%;  
+  flex: 1 0 50%;
   justify-content: center;
 }
 
@@ -45,9 +45,23 @@
   background-color: red;
 }
 
+.footer--danger  .footer__timer--progress {
+  color: black;  
+}
+
 .footer--warning {
   color: black;
   background: yellow;
+}
+
+.footer--normal {
+  color: black;
+  background: black;
+}
+
+.footer--lunch {
+  color: white;
+  background: blue;
 }
 
 progress {
