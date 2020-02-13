@@ -17,7 +17,7 @@ export class FooterComponent implements OnInit {
   constructor(private _taktService: TaktService) {
     this.footer = new Footer();
     this.footer.maxTakt = 20;
-    this.footer.taktTime = 0;
+    this.footer.taktTime = 20;
     this.footer.andonStatus = 0;
     this.footer.andonMessage = "FA 2 POSTO 3 AP 11";
     this.subscriber = _taktService.getTakt().subscribe((a) => this.updateTakt(a));
