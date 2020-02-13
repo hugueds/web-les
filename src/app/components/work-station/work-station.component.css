@@ -1,15 +1,17 @@
 .work-station__wrapper {
   margin: 0 auto;
   width: 100%;
-  /* min-height: 60vh; */
-  height: 58vh;
+  min-height: 70vh;
+  overflow:  hidden;
+  /* height: 58vh; */
+  /* min-height: 100%; */
   border: 1px solid white;
   display: flex;
 }
 
 app-chassis {
   display: flex;
-  width: 50%;
+  width: 40%;
 }
 
 .stations--L,
@@ -19,8 +21,8 @@ app-chassis {
   border: 1px solid yellow;
 }
 
-@media screen and (min-height: 1000px) {
+/* @media screen and (min-height: 1000px) {
   .work-station__wrapper {
     height: 73vh;
   }
-}
+} */

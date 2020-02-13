@@ -2,8 +2,8 @@
     margin: 0 auto;
     width: 100%;
     display: flex;
-    border: 1px solid white;
     flex-wrap: wrap;
+    border: 1px solid white;
 }
 
 .header__title {    
@@ -17,7 +17,6 @@
     margin-left: 12%;
     margin-right: 10%;
     font-size: 1.2vw;
-    
 }
 
 .header__values {

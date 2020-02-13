@@ -1,0 +1,7 @@
+.app__wrapper {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+}
