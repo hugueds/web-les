@@ -2,5 +2,87 @@
     margin: 0 auto;
     display: flex;
     width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
     /* border: 1px solid red; */
+}
+
+.chassis__picture {
+    display: flex;
+    flex: 1 0 auto;
+    width: 100%;
+    justify-content: center;
+    /* border: 1px solid red;     */
+}
+
+.chassis__picture img {
+    width: 100%;
+    height: 60vh;
+}
+
+.chassis__info {
+    display: flex;
+    flex: 1 1 auto;
+    height: 3.5vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    /* border: 2px solid lime; */
+}
+
+.chassis__number {
+    display: flex;   
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;    
+    /* border: 2px solid blue; */
+}
+
+.chassis__number--title {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    width: 100%;    
+    color: yellow;
+    font-weight: bold;
+}
+
+.chassis__number--value {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    width: 100%;
+    color: orange;    
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.chassis__popid {
+    display: flex;   
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 7%;
+    /* border: 3px solid gray; */
+}
+
+.chassis__popid--title {
+    color: yellow;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    width: 100%;    
+    font-weight: bold;
+
+}
+
+.chassis__popid--value {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    width: 100%;
+    color: orange;    
+    font-size: 4vw;
+    font-weight: bold;
 }

@@ -3,7 +3,7 @@
     width: 100%;
     color: yellow;
     border: 1px solid #fff;
-    min-height: 20vh;
+    min-height: 15vh;
     display: flex;
     flex-wrap: wrap;
 }

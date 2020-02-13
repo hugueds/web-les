@@ -1,19 +1,26 @@
 .work-station__wrapper {
-    margin: 0 auto;
-    width: 100%;
-    /* min-height: 60vh; */
-    height: 58vh;
-    border: 1px solid white;
-    display: flex;
+  margin: 0 auto;
+  width: 100%;
+  /* min-height: 60vh; */
+  height: 58vh;
+  border: 1px solid white;
+  display: flex;
 }
 
 app-chassis {
-    display: flex;    
-    width: 50%;
+  display: flex;
+  width: 50%;
 }
 
-.stations--L, .stations--R {
-    display: flex;
-    width: 100%;
-    border: 1px solid yellow;
+.stations--L,
+.stations--R {
+  display: flex;
+  width: 100%;
+  border: 1px solid yellow;
+}
+
+@media screen and (min-height: 1000px) {
+  .work-station__wrapper {
+    height: 73vh;
+  }
 }

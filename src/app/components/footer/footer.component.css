@@ -2,7 +2,7 @@
   margin: 0 auto;
   margin-top: 2%;
   width: 100%;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   min-height: 3vw;
   font-weight: bold;
   color: white;
@@ -30,7 +30,11 @@
   height: 3.6vw;
   border: 0.25vw solid #000;
   width: 80%;
-  background: #FFF;
+  background: #fff;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  align-self: center;  
 }
 
 .footer__timer--bar {
@@ -39,14 +43,13 @@
   background: limegreen;
 }
 
-
 .footer--danger {
   color: white;
   background-color: red;
 }
 
-.footer--danger  .footer__timer--progress {
-  color: black;  
+.footer--danger .footer__timer--progress {
+  color: black;
 }
 
 .footer--warning {
@@ -64,15 +67,14 @@
   background: blue;
 }
 
-progress {
-  width: 100%;
-}
+/* PROGRESS BAR CSS */
 
 .progress {
   height: 3.6vw;
   width: 100%;
   background-color: #c9c9c9;
   position: relative;
+
 }
 
 .progress:before {
@@ -91,4 +93,12 @@ progress {
   background-color: limegreen;
   display: inline-block;
   height: 100%;
+}
+
+@media screen and (min-height: 1000px) {
+
+  .footer__wrapper {
+    min-height: 6.5vw;
+  }
+
 }
