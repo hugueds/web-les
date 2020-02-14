@@ -3,8 +3,7 @@
   "short_name": "web-les",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "standalone",
-  "scope": "/",
+  "display": "fullscreen",  
   "start_url": "/web-les/",
   "icons": [
     {
