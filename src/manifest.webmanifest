@@ -3,9 +3,8 @@
   "short_name": "web-les",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "standalone",
-  "scope": "/",
-  "start_url": "/web-les/",
+  "display": "fullscreen",  
+  "start_url": "https://hugueds.github.io/web-les/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",

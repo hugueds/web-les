@@ -10,6 +10,7 @@ import { ChassisComponent } from './components/chassis/chassis.component';
 import { WorkStationComponent } from './components/work-station/work-station.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { PositionComponent } from './components/position/position.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { environment } from '../environments/environment';
     FooterComponent,
     VariantsComponent,
     ChassisComponent,
-    WorkStationComponent
+    WorkStationComponent,
+    PositionComponent
   ],
   imports: [
     BrowserModule,

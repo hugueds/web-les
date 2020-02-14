@@ -1,16 +1,20 @@
 <div class="work-station work-station__wrapper">
 
     <!-- REPLACE BY A DYNAMIC COMPONENT -->
-    <div class="work-station stations--L">
+    <!-- <div class="work-station stations--L">
+        <app-position></app-position>
+    </div> -->
 
-    </div>
-
+    <app-position [side]="'left'"></app-position>
 
     <app-chassis></app-chassis>
 
-    <div class="work-station stations--R">
+    <app-position [side]="'right'"></app-position>
 
-    </div>
+
+    <!-- <div class="work-station stations--R">
+
+    </div> -->
 
 
 </div>

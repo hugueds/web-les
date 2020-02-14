@@ -1,6 +1,6 @@
-<div class="app__wrapper">
+<div class="app app__wrapper">
   <app-header></app-header>
-  <app-variants></app-variants>
+  <app-variants [hidden]="!hasVariants"></app-variants>
   <app-work-station></app-work-station>
   <app-footer></app-footer>
 </div>

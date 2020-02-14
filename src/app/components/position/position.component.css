@@ -1,0 +1,38 @@
+.position__wrapper {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: aliceblue;
+  /* border: 2px solid limegreen; */
+}
+
+.position__instance {
+  display: flex;
+  width: 100%;
+}
+
+.position__instruction {
+  display: flex;
+  flex: 1 1 auto;
+  width: 90%;
+  border: 2px solid aliceblue;
+}
+
+.position__worker {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  width: 10%;
+  /* border: 2px solid blue; */
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50%;
+}
+
+.position__worker img {
+  max-width: 5vw;
+  height: 4vh;
+  /* border: 2px solid white; */
+}
