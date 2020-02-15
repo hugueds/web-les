@@ -8,10 +8,12 @@ import { Component, OnInit, Input } from '@angular/core';
 export class PositionComponent implements OnInit {
 
   @Input() side: string;
+  @Input() positions: Array<number>;
 
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }

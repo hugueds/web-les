@@ -3,10 +3,10 @@
     <!-- GET THE NUMBER OF POSITIONS IN EACH SIDE -->
     <!-- GET THE VALUES AS THE POPID CHANGES -->
     
-    <app-position [side]="'left'"></app-position>
+    <app-position [side]="'left'" [positions]="activePositions[0]"></app-position>
 
     <app-chassis></app-chassis>
 
-    <app-position [side]="'right'"></app-position>
+    <app-position [side]="'right'" [positions]="activePositions[1]"></app-position>
 
 </div>

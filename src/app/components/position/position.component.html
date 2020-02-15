@@ -1,45 +1,13 @@
 <div class="position position__wrapper">
 
-    <div class="position__instance">
-        
-        <div *ngIf="side == 'left'" class="position__instruction">{{ side }}</div>        
-        <div *ngIf="side == 'left'" class="position__worker">
-            <img src="./assets/images/man_right.png" alt="">
-        </div>
+    <div class="position__instance position__instance--{{side}}" *ngFor="let p of positions">
 
-        <div *ngIf="side == 'right'" class="position__worker">
-            <img src="./assets/images/man_left.png" alt="">
-        </div>
-        <div *ngIf="side == 'right'" class="position__instruction">{{ side }}</div>        
-        
-    </div>   
+        <div class="position__instruction">{{ side }}</div>
 
-    <div class="position__instance">
+        <div class="position__worker">
+          <img src="./assets/images/man_{{side}}.png" alt="" [style.flex-direction]="'row-reverse'">
+        </div>   
         
-        <div *ngIf="side == 'left'" class="position__instruction">{{ side }}</div>        
-        <div *ngIf="side == 'left'" class="position__worker">
-            <img src="./assets/images/man_right.png" alt="">
-        </div>
-
-        <div *ngIf="side == 'right'" class="position__worker">
-            <img src="./assets/images/man_left.png" alt="">
-        </div>
-        <div *ngIf="side == 'right'" class="position__instruction">{{ side }}</div>        
-        
-    </div>   
-
-    <div class="position__instance">
-        
-        <div *ngIf="side == 'left'" class="position__instruction">{{ side }}</div>        
-        <div *ngIf="side == 'left'" class="position__worker">
-            <img src="./assets/images/man_right.png" alt="">
-        </div>
-
-        <div *ngIf="side == 'right'" class="position__worker">
-            <img src="./assets/images/man_left.png" alt="">
-        </div>
-        <div *ngIf="side == 'right'" class="position__instruction">{{ side }}</div>        
-        
-    </div>   
-
+    </div>
+  
 </div>

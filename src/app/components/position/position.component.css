@@ -13,6 +13,10 @@
   width: 100%;
 }
 
+.position__instance--right {
+  flex-direction: row-reverse;
+}
+
 .position__instruction {
   display: flex;
   flex: 1 1 auto;
@@ -25,16 +29,13 @@
   flex: 1 1 auto;
   flex-direction: column;
   width: 10%;
-  /* border: 2px solid blue; */
   justify-content: center;
   align-content: center;
-  margin-bottom: 50%;
+  margin-bottom: 25%;
+  /* border: 2px solid blue; */
+  
 }
 
 .position__worker img {
-  /* max-width: 6vw; */
-  height: 4vh;
-  padding-left: 0vw;
-  padding-right: 1vw;
-  /* border: 2px solid white; */
+  height: 3vh;
 }
