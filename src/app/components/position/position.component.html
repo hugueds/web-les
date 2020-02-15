@@ -1,13 +1,38 @@
 <div class="position position__wrapper">
 
-    <div class="position__instance position__instance--{{side}}" *ngFor="let p of positions">
+  <div class="position__instance position__instance--{{side}}" *ngFor="let p of positions">
 
-        <div class="position__instruction">{{ side }}</div>
+    <div class="position__instruction">
 
-        <div class="position__worker">
-          <img src="./assets/images/man_{{side}}.png" alt="" [style.flex-direction]="'row-reverse'">
-        </div>   
-        
-    </div>
-  
+      <div class="position__instruction--content" *ngFor="let inst of instructions; let i = index">
+        <div class="position__instruction--title">
+          {{ side }} {{ inst.type }} {{p}}
+        </div>
+        <div class="position__instruction--message">
+          MESSAGE {{ i }}: 
+          {{inst.message}}
+        </div>
+      </div>      
+
+    </div>   
+    
+    <div class="position__worker">
+      <img src="./assets/images/man_{{side}}.png" alt="" [style.flex-direction]="'row-reverse'">
+    </div>  
+    
+  </div>
+
 </div>
+
+<!-- 
+<div class="position__instruction--wrapper" *ngFor="let i of instructions">
+
+  <ng-container class="position__instruction--box">
+    <div class="position__instruction--header">
+      {{ i.type}}
+    </div>
+    <!-- <div class="position__instruction--content">
+      {{ i.message }}
+    </div> -->
+  <!-- </ng-container> --> -->
+

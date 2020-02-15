@@ -1,12 +1,13 @@
+<!-- <div style="color: white" >{{ messageLength }}</div> -->
+
 <div class="work-station work-station__wrapper">
 
     <!-- GET THE NUMBER OF POSITIONS IN EACH SIDE -->
     <!-- GET THE VALUES AS THE POPID CHANGES -->
-    
-    <app-position [side]="'left'" [positions]="activePositions[0]"></app-position>
+    <app-position [instructions]="instructions" [side]="'left'" [positions]="activePositions[0]"></app-position>
 
     <app-chassis></app-chassis>
 
-    <app-position [side]="'right'" [positions]="activePositions[1]"></app-position>
+    <app-position [instructions]="instructions" [side]="'right'" [positions]="activePositions[1]"></app-position>
 
 </div>
