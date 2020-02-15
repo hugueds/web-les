@@ -6,4 +6,14 @@ import { Injectable } from '@angular/core';
 export class LesService {
 
   constructor() { }
+
+  getPopid(popid: string) {
+
+  }
+
+  getConfig(station: string) {
+    
+  }
+
+
 }
