@@ -14,7 +14,7 @@ export class WorkStationComponent implements OnInit {
   messageLength = 0;
 
   instructions = [
-    {'type': 'text' , message: 'Lorem ipsum fames bibendum convallis eros velit erat urna sit sagittis sagittis ipsum aptent inceptos egestas commodo laoreet mollis amet. faucibus hac litora rutrum suspendisse laoreet platea at iaculis, tristique maecenas ante netus urna faucibus himenaeos laoreet platea'},
+    {'type': 'text' , message: 'Lorem ipsum fames tes test'},
     // {'type': 'par' , message: 'sagittis ipsum aptent inceptos egestas commodo laoreet mollis amet. faucibus hac litora rutrum suspendisse '},
     // {'type': 'text' , message: 'laoreet platea at iaculis, tristique maecenas ante netus urna faucibus himenaeos'},
     // {'type': 'par' , message: 'pellentesque augue ut senectus auctor porta enim. blandit quisque curabitur taciti '},
